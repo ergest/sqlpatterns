@@ -63,5 +63,3 @@ from
     ) as p
 group by
     1,2,3
-order by
-    posts_created desc;
