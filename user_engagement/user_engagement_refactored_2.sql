@@ -26,9 +26,7 @@ post_types as (
         'question' as post_type
     from
         posts_questions q
-
     union all
-        
     select
         id as post_id,
         'answer' as post_type
