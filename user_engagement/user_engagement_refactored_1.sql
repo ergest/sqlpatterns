@@ -46,9 +46,7 @@ from
         posts_questions q
         inner join post_activity pa
             on q.id = pa.post_id
-    
      union all
-
      select
         id as post_id,
         'answer' as post_type,
